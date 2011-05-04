@@ -178,6 +178,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="vendor/lithrom" name="LithRom/platform_vendor_lithrom" remote="github"/>
-  <project path="vendor/htc/supersonic" name="LithRom/platform_vendor_htc_supersonic" remote=github" />
+  <project path="vendor/htc/supersonic" name="LithRom/platform_vendor_htc_supersonic" remote="github" />
 
 </manifest>
