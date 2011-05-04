@@ -144,6 +144,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/salvagewallpapers" name="SalvageMod/android_packages_apps_salvagewallpapers" remote="github" revision="froyo" />
+  <project path="packages/apps/SalvageParts" name="SalvageMod/android_packages_apps_SalvageParts" remote="github" revision="master" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
