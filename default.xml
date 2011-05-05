@@ -180,7 +180,7 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="vendor/lithrom" name="LithRom/platform_vendor_lithrom" remote="github"/>
   <project path="vendor/htc/supersonic" name="LithRom/platform_vendor_htc_supersonic" remote="github" />
-  <project path="vendor/htc/inc" name="LithRom/platform_vendor_htc_inc" remote="github" revision="master" />
+  <project path="vendor/htc/inc" name="SalvageMod/platform_vendor_htc_inc" remote="github" revision="master" />
   <project path="vendor/salvage" name="SalvageMod/android_vendor_salvage" remote="github" revision="master" />
 
 </manifest>
