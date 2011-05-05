@@ -10,7 +10,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="LithRom/platform_build" remote="github" >
+  <project path="build" name="LithRom/platform_build" remote="github" revision="salvage" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
