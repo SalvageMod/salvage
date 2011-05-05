@@ -23,7 +23,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/samsung/crespo" name="device/samsung/crespo"/>
-  <project path="device/htc/supersonic" name="LithRom/platform_device_htc_supersonic" remote="github" />
+  <project path="device/htc/supersonic" name="LithRom/platform_device_htc_supersonic" remote="github" revision="salvage" />
   <project path="device/htc/inc" name="SalvageMod/android_device_htc_inc" remote="github" revision="gingerbread" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
