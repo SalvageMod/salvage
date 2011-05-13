@@ -10,7 +10,7 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="LithRom/platform_build" remote="github" revision="salvage" >
+  <project path="build" name="SalvageMod/platform_build" remote="github" revision="salvage" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
@@ -23,7 +23,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/samsung/crespo" name="device/samsung/crespo"/>
-  <project path="device/htc/supersonic" name="LithRom/platform_device_htc_supersonic" remote="github" revision="salvage" />
+  <project path="device/htc/supersonic" name="SalvageMod/platform_device_htc_supersonic" remote="github" revision="salvage" />
   <project path="device/htc/inc" name="SalvageMod/android_device_htc_inc" remote="github" revision="gingerbread" />
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -38,7 +38,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/busybox" name="SalvageMod/android_external_busybox" remote="github" revision="gingerbread" />
   <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="LithRom/platform_external_clearsilver" remote="github"/>
+  <project path="external/clearsilver" name="SalvageMod/platform_external_clearsilver" remote="github"/>
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -111,15 +111,15 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="LithRom/platform_frameworks_base" remote="github" revision="salvage" />
+  <project path="frameworks/base" name="SalvageMod/platform_frameworks_base" remote="github" revision="salvage" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="LithRom/platform_hardware_libhardware_legacy" remote="github" />
-  <project path="hardware/msm7k" name="LithRom/platform_hardware_msm7k" remote="github" />
-  <project path="hardware/qcom/gps" name="LithRom/platform_hardware_qcom_gps" remote="github" />
-  <project path="hardware/qcom/media" name="LithRom/platform_hardware_qcom_media" remote="github" />
+  <project path="hardware/libhardware_legacy" name="SalvageMod/platform_hardware_libhardware_legacy" remote="github" />
+  <project path="hardware/msm7k" name="SalvageMod/platform_hardware_msm7k" remote="github" />
+  <project path="hardware/qcom/gps" name="SalvageMod/platform_hardware_qcom_gps" remote="github" />
+  <project path="hardware/qcom/media" name="SalvageMod/platform_hardware_qcom_media" remote="github" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
@@ -127,7 +127,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="LithRom/platform_packages_apps_browser" remote="github" revision="gingerbread" />
+  <project path="packages/apps/Browser" name="SalvageMod/platform_packages_apps_browser" remote="github" revision="gingerbread" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -138,8 +138,8 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="LithRom/platform_packages_apps_launcher2" remote="github" />
-  <project path="packages/apps/Mms" name="LithRom/platform_packages_apps_mms" remote="github" revision="gingerbread" />
+  <project path="packages/apps/Launcher2" name="SalvageMod/platform_packages_apps_launcher2" remote="github" />
+  <project path="packages/apps/Mms" name="SalvageMod/platform_packages_apps_mms" remote="github" revision="gingerbread" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
@@ -149,11 +149,11 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/salvagewallpapers" name="SalvageMod/android_packages_apps_salvagewallpapers" remote="github" revision="froyo" />
   <project path="packages/apps/SalvageParts" name="SalvageMod/android_packages_apps_SalvageParts" remote="github" revision="2.3.4" />
-  <project path="packages/apps/Settings" name="LithRom/platform_packages_apps_Settings" remote="github" revision="salvage" />
+  <project path="packages/apps/Settings" name="SalvageMod/platform_packages_apps_Settings" remote="github" revision="salvage" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="LithRom/platform_packages_apps_Superuser" remote="github" revision="master-dev" />
+  <project path="packages/apps/Superuser" name="SalvageMod/platform_packages_apps_Superuser" remote="github" revision="master-dev" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="SalvageMod/android_packages_apps_Torch" remote="github" revision="gingerbread" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -175,14 +175,13 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="LithRom/platform_system_core" remote="github" revision="gingerbread" />
+  <project path="system/core" name="SalvageMod/platform_system_core" remote="github" revision="gingerbread" />
   <project path="system/extras" name="echo17/platform_system_extras" remote="github" revision="gingerbread" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/lithrom" name="LithRom/platform_vendor_lithrom" remote="github"/>
-  <project path="vendor/htc/supersonic" name="LithRom/platform_vendor_htc_supersonic" remote="github" />
+  <project path="vendor/htc/supersonic" name="SalvageMod/platform_vendor_htc_supersonic" remote="github" />
   <project path="vendor/htc/inc" name="SalvageMod/vendor_htc_inc" remote="github" revision="master" />
   <project path="vendor/salvage" name="SalvageMod/android_vendor_salvage" remote="github" revision="master" />
 
