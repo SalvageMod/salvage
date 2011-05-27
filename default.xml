@@ -22,10 +22,8 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo"/>
   <project path="device/htc/supersonic" name="SalvageMod/platform_device_htc_supersonic" remote="github" revision="salvage" />
   <project path="device/htc/inc" name="SalvageMod/android_device_htc_inc" remote="github" revision="gingerbread" />
-  <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -136,7 +134,6 @@
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="SalvageMod/platform_packages_apps_launcher2" remote="github" />
   <project path="packages/apps/Mms" name="SalvageMod/platform_packages_apps_mms" remote="github" revision="gingerbread" />
