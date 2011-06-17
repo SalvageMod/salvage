@@ -13,7 +13,7 @@
   <project path="build" name="SalvageMod/platform_build" remote="github" revision="salvage" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="platform/bionic" />
+  <project path="bionic" name="SalvageMod/platform_bionic" remote="github" revision="gingerbread" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -117,7 +117,7 @@
   <project path="hardware/libhardware_legacy" name="SalvageMod/platform_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="SalvageMod/platform_hardware_msm7k" remote="github" revision="master" />
   <project path="hardware/qcom/gps" name="SalvageMod/platform_hardware_qcom_gps" remote="github" />
-  <project path="hardware/qcom/media" name="SalvageMod/platform_hardware_qcom_media" remote="github" />
+  <project path="hardware/qcom/media" name="SalvageMod/platform_hardware_qcom_media" remote="github" revision="gingerbread" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
