@@ -137,8 +137,8 @@
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="SalvageMod/platform_packages_apps_launcher2" remote="github" />
-  <project path="packages/apps/Mms" name="SalvageMod/platform_packages_apps_mms" remote="github" revision="gingerbread" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/Mms" name="SalvageMod/platform_packages_apps_mms" remote="github" />
+  <project path="packages/apps/Music" name="SalvageMod/platform_packages_apps_Music" remote="github" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
