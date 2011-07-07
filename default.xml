@@ -23,7 +23,6 @@
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/supersonic" name="SalvageMod/platform_device_htc_supersonic" remote="github" />
-  <project path="device/htc/inc" name="SalvageMod/android_device_htc_inc" remote="github" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -180,7 +179,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="vendor/htc/supersonic" name="SalvageMod/platform_vendor_htc_supersonic" remote="github" />
-  <project path="vendor/htc/inc" name="SalvageMod/vendor_htc_inc" remote="github" />
   <project path="vendor/salvage" name="SalvageMod/android_vendor_salvage" remote="github" />
 
 </manifest>
