@@ -10,10 +10,10 @@
   <default revision="gingerbread"
            remote="korg" />
 
-  <project path="build" name="SalvageMod/platform_build" remote="github" >
+  <project path="build" name="SalvageMod/platform_build" remote="github" revision="SalvageMod1.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="SalvageMod/platform_bionic" remote="github" />
+  <project path="bionic" name="SalvageMod/platform_bionic" remote="github" revision="SalvageMod1.3" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -22,7 +22,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/supersonic" name="SalvageMod/platform_device_htc_supersonic" remote="github" />
+  <project path="device/htc/supersonic" name="SalvageMod/platform_device_htc_supersonic" remote="github" revision="SalvageMod1.3" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -33,9 +33,9 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="SalvageMod/android_external_busybox" remote="github" />
+  <project path="external/busybox" name="SalvageMod/android_external_busybox" remote="github" revision="SalvageMod1.3" />
   <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="SalvageMod/platform_external_clearsilver" remote="github"/>
+  <project path="external/clearsilver" name="SalvageMod/platform_external_clearsilver" remote="github" revision="SalvageMod1.3" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -49,7 +49,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="SalvageMod/android_external_flac" remote="github" />
+  <project path="external/flac" name="SalvageMod/android_external_flac" remote="github" revision="SalvageMod1.3" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -108,51 +108,51 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="SalvageMod/platform_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="SalvageMod/platform_frameworks_base" remote="github" revision="SalvageMod1.3" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="SalvageMod/platform_hardware_libhardware_legacy" remote="github" />
-  <project path="hardware/msm7k" name="SalvageMod/platform_hardware_msm7k" remote="github" />
-  <project path="hardware/qcom/gps" name="SalvageMod/platform_hardware_qcom_gps" remote="github" />
-  <project path="hardware/qcom/media" name="SalvageMod/platform_hardware_qcom_media" remote="github" />
+  <project path="hardware/libhardware_legacy" name="SalvageMod/platform_hardware_libhardware_legacy" remote="github" revision="SalvageMod1.3" />
+  <project path="hardware/msm7k" name="SalvageMod/platform_hardware_msm7k" remote="github" revision="SalvageMod1.3" />
+  <project path="hardware/qcom/gps" name="SalvageMod/platform_hardware_qcom_gps" remote="github" revision="SalvageMod1.3" />
+  <project path="hardware/qcom/media" name="SalvageMod/platform_hardware_qcom_media" remote="github" revision="SalvageMod1.3" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
-  <project path="packages/apps/AndroidTerm" name="SalvageMod/android_packages_apps_AndroidTerm" remote="github" />
+  <project path="packages/apps/AndroidTerm" name="SalvageMod/android_packages_apps_AndroidTerm" remote="github" revision="SalvageMod1.3" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="SalvageMod/platform_packages_apps_browser" remote="github" />
+  <project path="packages/apps/Browser" name="SalvageMod/platform_packages_apps_browser" remote="github" revision="SalvageMod1.3" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="SalvageMod/platform_packages_apps_camera" remote="github" />
+  <project path="packages/apps/Camera" name="SalvageMod/platform_packages_apps_camera" remote="github" revision="SalvageMod1.3" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CMWimaxSettings" name="SalvageMod/android_packages_apps_CMWimaxSettings" remote="github" />
+  <project path="packages/apps/CMWimaxSettings" name="SalvageMod/android_packages_apps_CMWimaxSettings" remote="github" revision="SalvageMod1.3" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="SalvageMod/platform_packages_apps_launcher2" remote="github" />
-  <project path="packages/apps/Mms" name="SalvageMod/platform_packages_apps_mms" remote="github" />
-  <project path="packages/apps/Music" name="SalvageMod/platform_packages_apps_Music" remote="github" />
+  <project path="packages/apps/Launcher2" name="SalvageMod/platform_packages_apps_launcher2" remote="github" revision="SalvageMod1.3" />
+  <project path="packages/apps/Mms" name="SalvageMod/platform_packages_apps_mms" remote="github" revision="SalvageMod1.3" />
+  <project path="packages/apps/Music" name="SalvageMod/platform_packages_apps_Music" remote="github" revision="SalvageMod1.3" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/SalvageParts" name="SalvageMod/android_packages_apps_SalvageParts" remote="github" />
-  <project path="packages/apps/Settings" name="SalvageMod/platform_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/SalvageParts" name="SalvageMod/android_packages_apps_SalvageParts" remote="github" revision="SalvageMod1.3" />
+  <project path="packages/apps/Settings" name="SalvageMod/platform_packages_apps_Settings" remote="github" revision="SalvageMod1.3" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Superuser" name="SalvageMod/platform_packages_apps_Superuser" remote="github" />
+  <project path="packages/apps/Superuser" name="SalvageMod/platform_packages_apps_Superuser" remote="github" revision="SalvageMod1.3" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="SalvageMod/android_packages_apps_Torch" remote="github" />
+  <project path="packages/apps/Torch" name="SalvageMod/android_packages_apps_Torch" remote="github" revision="SalvageMod1.3" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
@@ -172,13 +172,13 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="SalvageMod/platform_system_core" remote="github" />
-  <project path="system/extras" name="SalvageMod/platform_system_extras" remote="github" />
+  <project path="system/core" name="SalvageMod/platform_system_core" remote="github" revision="SalvageMod1.3" />
+  <project path="system/extras" name="SalvageMod/platform_system_extras" remote="github" revision="SalvageMod1.3" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/htc/supersonic" name="SalvageMod/platform_vendor_htc_supersonic" remote="github" />
-  <project path="vendor/salvage" name="SalvageMod/android_vendor_salvage" remote="github" />
+  <project path="vendor/htc/supersonic" name="SalvageMod/platform_vendor_htc_supersonic" remote="github" revision="SalvageMod1.3" />
+  <project path="vendor/salvage" name="SalvageMod/android_vendor_salvage" remote="github" revision="SalvageMod1.3" />
 
 </manifest>
