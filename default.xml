@@ -178,7 +178,6 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/htc/supersonic" name="SalvageMod/platform_vendor_htc_supersonic" remote="github" revision="SalvageMod1.3" />
   <project path="vendor/salvage" name="SalvageMod/android_vendor_salvage" remote="github" revision="SalvageMod1.3" />
 
 </manifest>
