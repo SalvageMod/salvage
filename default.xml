@@ -19,7 +19,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
+  <project path="development" name="SalvageMod/platform_development" remote="github" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
   <project path="device/htc/supersonic" name="SalvageMod/platform_device_htc_supersonic" remote="github" />
