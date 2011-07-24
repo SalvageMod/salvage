@@ -177,7 +177,7 @@
   <project path="system/extras" name="SalvageMod/platform_system_extras" remote="github" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="SalvageMod/platform_system_vold" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="vendor/salvage" name="SalvageMod/android_vendor_salvage" remote="github" />
 
