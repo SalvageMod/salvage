@@ -7,7 +7,7 @@
   <remote name="github"
            fetch="git://www.github.com/" />
 
-  <default revision="gingerbread"
+  <default revision="android-2.3.7_r1"
            remote="korg" />
 
   <project path="build" name="SalvageMod/platform_build" remote="github" >
